@@ -3,7 +3,7 @@ import { CiLocationOn } from 'react-icons/ci';
 import { AiOutlineDollarCircle } from 'react-icons/ai';
 const Job = ({ job }) => {
     console.log(job)
-    const { id, logo, job_title, company_name, salary, remote_or_onsite, job_type, location } = job;
+    const {logo, job_title, company_name, salary, remote_or_onsite, job_type, location } = job;
 
     return (
 
